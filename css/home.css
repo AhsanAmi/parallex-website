@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'Pacifico-Regular';
+	src: url('../font/Pacifico-Regular.ttf') format('truetype');
+}
+body {
+	display: block;
+	margin: 0px;
+}
+.light-dark-bg {
+	background-color: #555455;
+}
+.dark-bg {
+	background-color: #282E34;
+}
+.light-bg {
+	background-color: #E8E8E8;
+}
+.light-text {
+	color: #E8E8E8;
+}
+.main_heading_font {
+	font-family: 'Pacifico-Regular';
+	font-weight: bolder;
+	font-size: 2.4rem;
+	text-align: center;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+.sub_heading_font {
+	font-family: 'Arimo, serif';
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+h4 {
+	margin-top: 0rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+p {
+	padding-bottom: 4rem;
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
+.position_center {
+	text-align: center;
+}
+/* Section 1 */
+
+.section_1 {
+	padding: 3rem 8rem;
+	margin: 0 0;
+	border: none;
+}
+.logo4_img img {
+	margin-top: 3rem;
+	margin-bottom: 0rem;
+}
+.name-img {
+	margin-top: -5rem;
+	margin-bottom: 0rem;
+}
+/* Skill Profile */
+
+.skill-profile {
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
+/* Scrolling Effect */
+
+.parallax-img1, .parallax-img2, .parallax-img3 {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* import images and position them */
+
+.parallax-img1 {
+	background-image: url('../img/img1.jpeg');
+	min-height: 900px;
+}
+.parallax-img2 {
+	background-image: url('../img/img2.jpeg');
+	min-height: 400px;
+}
+.parallax-img3 {
+	background-image: url('../img/img3-3.jpeg');
+	min-height: 400px;
+}
+.end {
+	position: absolute;
+	top: 50%;
+	margin-left: 40%;
+	margin-right: 40%;
+	letter-spacing: 1rem;
+}
