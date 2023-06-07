@@ -1,9 +1,6 @@
 # parallex-website
 
 <h4> Parallex Effect Website</h4>
-<b>HTML5, CSS3</b>
-<br>
-# Live Demo 🎥
 
 # Build with
   <li>
