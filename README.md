@@ -1,6 +1,7 @@
 # parallex-website
 
 <h4> Parallex Effect Website</h4>
+https://ahsanami.github.io/parallex-website/
 
 # Build with
   <li>
